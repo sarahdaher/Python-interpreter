@@ -1,0 +1,5 @@
+DEBUT
+OK2
+OK3
+OK5
+FIN

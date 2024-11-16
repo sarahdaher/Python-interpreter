@@ -1,0 +1,11 @@
+print(0 == 0)
+print(1 == 0)
+print(1 == 1)
+print(-1 == -1)
+print(-1 == 0)
+print(100000008 == 100000008)
+
+print(False == False)
+print(False == True)
+print(True == False)
+print(True == True)

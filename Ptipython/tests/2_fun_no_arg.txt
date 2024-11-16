@@ -1,0 +1,9 @@
+OK f 1
+OK g
+OK f 2
+OK global 1
+OK g
+OK f 1
+OK g
+OK f 2
+OK global 2
