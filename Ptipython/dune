@@ -1,0 +1,21 @@
+(env
+ (dev
+  (flags :standard -warn-error -27-32-66-33)))
+
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser))
+
+(library
+ (name eval)
+ (modules lexer parser ast runtime eval)
+ (libraries unix))
+
+(executable
+ (name ptipython)
+ (promote (until-clean))
+ (modules ptipython)
+ (libraries unix eval)
+ (flags ()))
