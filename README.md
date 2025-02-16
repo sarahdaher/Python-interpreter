@@ -1,5 +1,5 @@
 # Python-interpreter
-Un interpreteur du langage Python
+Un interpreteur du langage Python en Ocaml
 
 # Fonctionalités
 - Parser et Lexer
@@ -11,7 +11,8 @@ Un interpreteur du langage Python
 - Amélioration des accès aux listes ( exemple :  [0,1][0]) 
 - Variables globales et locales
 - Modification des tableaux
-- Extensions possibles (compréhensions de liste, etc.)
+- Comprehension de listes
+- Range
 
 # Tests
 Un ensemble de tests est présent dans Ptipython/tests avec fichier.py un code python et fichier.txt le résultat attendu
